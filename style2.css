@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-image: url(bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+
+.big_image{
+    width: 60%;
+    height: 100vh;
+    background-image: url(hg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.buttons{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+    width: 50%;
+}
+
+
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn_text{
+    font-size: 24px;
+}
+
+.reistr{
+        position: relative;
+        top: -50px;
+    font-size: 24px;
+    
+    }
+
+.btn2{
+    position: relative;
+    right: -162px;
+    text-decoration: none;
+    background-color: rgb(191, 195, 214);
+    border-radius: 20px;
+    padding: 1px 15px;
+    color: azure;
+    border: 1px solid rgb(163, 163, 163);
+    top: 10px;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: rgb(88, 96, 137);
+    border-radius: 20px;
+    padding: 10px 50px;
+    color: azure;
+    border: 1px solid black;
+}
